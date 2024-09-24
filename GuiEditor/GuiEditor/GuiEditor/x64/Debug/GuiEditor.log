@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+J:\Documents\Programming\Engines\Projects\Tekken8Projects\GuiEditor\GuiEditor\GuiEditor\MyForm.cpp(8,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  GuiEditor.vcxproj -> J:\Documents\Programming\Engines\Projects\Tekken8Projects\GuiEditor\GuiEditor\x64\Debug\GuiEditor.exe
