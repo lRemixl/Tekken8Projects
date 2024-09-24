@@ -1,0 +1,22 @@
+xmake f -m Game__Shipping__Win64
+xmake f -p gcc --toolchain=gcc -m Game__Shipping__Win64
+xmake f -p windows --toolchain=gcc -m Game__Shipping__Win64
+xmake f -p windows --toolchain=msvc -m Game__Shipping__Win64 -- This 
+xmake f -v -c -p windows --toolchain=msvc -m Game__Shipping__Win64 -- +extras
+xmake f -v -c -p windows --toolchain=msvc -m Game__Shipping__Win64
+set rc="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe"
+set rc="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe"
+xmake --rc="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe"
+xmake f -c --rc="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe" --rcar=-p windows --toolchain=msvc -a x64 -m Game__Shipping__Win64
+xmake f -c --rc="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe" -p windows --toolchain=msvc -m Game__Shipping__Win64
+xmake f -c --rc="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe" --ar="E:\Documents\VisualStudio\VC\Tools\MSVC\14.41.34120\bin\Hostx86\x64\lib.exe" -p windows --toolchain=msvc -m Game__Shipping__Win64
+
+This was too much of a pain to setup
+
+so its xmake f -c --rc="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe" -p windows --toolchain=msvc -a x64 -m Game__Shipping__Win64
+using Vs developer comamand prompt
+or xmake f -c --rc="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe" --rcar=-p windows --toolchain=msvc -a x64 -m Game__Shipping__Win64
+then xmake 
+xmake -vD for verbose debbugging
+
+ 

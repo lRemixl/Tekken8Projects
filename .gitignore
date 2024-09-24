@@ -1,0 +1,11 @@
+shared/
+UHTHeaderDump/
+CXXHeaderDump/
+CPP/RE-UE4SS/
+build/
+CPP/.xmake/
+CPP/Binaries/
+CPP/Intermediates/.deps/
+CPP/Intermediates/.gens/
+CPP/Intermediates/.objs/
+CPP/Intermediates/.packages/
